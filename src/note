@@ -1,0 +1,60 @@
+there should be a place to hold other expense name
+
+06 14
+
+previous invoices are not loading - paid amount always 0 ; done
+by default paid amount equals to total amount
+when settling incomplete invoice 
+    paid amount decreases
+    selected invoice record disappears
+
+settled amount + paid amount = total amount
+
+
+
+future warnings
+column names can be dragged 
+multiple records can be added to frame tables
+over settled error using delete key
+
+
+in cheques issued 
+
+
+ private void getExType() {
+        try {
+            Statement s = main.DB.con().createStatement();
+            ResultSet rs = s.executeQuery("SELECT `name` FROM `sanasa`.`expence_type`");
+            while (rs.next()) {                
+                cmbType.addItem(rs.getString(1));
+            }
+        } catch (Exception e) {
+        }
+    }
+
+
+s.executeUpdate("INSERT INTO `sanasa`.`expence_type` VALUES ('"+type+"')");
+                getExType ();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+db changes 
+
+    check ID in voucher changed not null to null
+
+in personal account there should be column for hold voucher / invoice no
+due to each record
+    

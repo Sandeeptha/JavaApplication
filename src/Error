@@ -1,0 +1,5 @@
+Voucher
+    when id is empty other fields are wont clear
+    something must change in topayment
+        operator can close the window only completing vouchers without complete transection 
+        Same as in Frompayment
