@@ -7,7 +7,6 @@ import java.util.*;
 import javax.swing.*;
 import javax.swing.event.*;
 
-//import twaver.*;
 
 public class AutoComplete {
 

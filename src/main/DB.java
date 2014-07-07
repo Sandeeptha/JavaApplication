@@ -15,7 +15,7 @@ import javax.swing.JOptionPane;
 public class DB {
 
     static Connection c = null;
-    static String databasepass="1234";
+    static String databasepass="123";
 
     public static Connection con() {
         try {
